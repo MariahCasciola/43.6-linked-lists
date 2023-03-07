@@ -117,7 +117,7 @@ class LinkedList {
     }
     let node = this.head;
     if (node === matchedNode) {
-         this.head = matchedNode.next
+      this.head = matchedNode.next;
       return matchedNode.value;
     }
     while (node) {
